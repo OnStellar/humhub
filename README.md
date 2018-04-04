@@ -1,3 +1,22 @@
+OnStellar Procedure
+===================
+
+- Prelim for dev - set up ubuntu dev VM in Virtualbox
+- Prereqs per docs, need composer
+- Clone this repo to public folder
+- Once composer is installed, from project root:
+
+https://stackoverflow.com/questions/25882271/cannot-update-yii2-via-composer-bower-asset-jquery-could-not-be-found
+- composer global require "fxp/composer-asset-plugin:^1.2.0"
+- composer install
+- chmod +x setPerms.sh
+- ./setPerms.sh
+- Set hosts file /etc/hosts and Windows host, add entry:
+- localhost onstellar.test
+
+
+
+
 HumHub - Social Network Kit
 ===========================
 
